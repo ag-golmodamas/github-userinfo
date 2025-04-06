@@ -81,7 +81,6 @@ class GitUserInfo(private val userRepository: UserRepository) {
             println("username: ${user.username}")
             println("followers: ${user.followers}")
             println("repos: ${user.repositories.size}")
-            println("------------------")
         }
     }
 
